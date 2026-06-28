@@ -1,0 +1,56 @@
+[
+  {
+    "title": "👯‍♀️ The Perfect Twins",
+    "input": {
+      "s": "noon",
+      "t": "deed"
+    },
+    "output": true,
+    "description": "A flawless 1:1 match! 'n' elegantly steps in for 'd', while 'o' perfectly mimics 'e'."
+  },
+  {
+    "title": "💔 The Two-Timer",
+    "input": {
+      "s": "foo",
+      "t": "bar"
+    },
+    "output": false,
+    "description": "Uh oh! The letter 'o' tries to cheat by mapping to both 'a' and 'r' at the same time."
+  },
+  {
+    "title": "🛑 The Crowded Room",
+    "input": {
+      "s": "bad",
+      "t": "bab"
+    },
+    "output": false,
+    "description": "Traffic jam! Both 'a' and 'd' attempt to park in the 'b' spot, violating the rule that no two characters can map to the same character."
+  },
+  {
+    "title": "🔣 The ASCII Party",
+    "input": {
+      "s": "@!#$%",
+      "t": "12345"
+    },
+    "output": true,
+    "description": "Who said it's just letters? Special characters map beautifully to digits without a hitch."
+  },
+  {
+    "title": "🎭 The Identity Crisis",
+    "input": {
+      "s": "Aa",
+      "t": "ab"
+    },
+    "output": true,
+    "description": "Case sensitivity matters here! Uppercase 'A' and lowercase 'a' are entirely distinct characters, making this a completely valid disguise."
+  },
+  {
+    "title": "♾️ The Monotone Echo",
+    "input": {
+      "s": "aaaaa",
+      "t": "zzzzz"
+    },
+    "output": true,
+    "description": "A bit repetitive, but highly effective; a single character mapping applied across the entire string works perfectly."
+  }
+]
